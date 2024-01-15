@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",Arial,Helvetica,sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+
+h1,
+h4,
+p,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 10px 32px;
+  font-size:1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light {
+  background:  transparent;
+  color: #fff;
+}
+.btn:hover {
+  color: #fff;
+  transition: 0.3s;
+  background: rgba(255,255, 255, 0.2);
+}
+
+.aleft{
+  align-items: left!important;
+  text-align: left!important;
+  font-size: 0.6vw;
+  
+}
+
+#mainpreloader .preloader{
+  background: #E9E9E9;
+}
+.mainpreloader {
+border: 3px solid rgba(0,0,0,.1);
+}
+.mainpreloader span {
+border-top: 4px solid rgba(0,0,0,.7);
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

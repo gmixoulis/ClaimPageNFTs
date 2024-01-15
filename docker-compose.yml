@@ -1,0 +1,11 @@
+version: '3'
+services:
+  meta-staging:
+    build: .
+    container_name: meta
+    ports:
+      - 3000:80
+    volumes:
+      - ./:/usr/src/app
+    restart: unless-stopped
+ 

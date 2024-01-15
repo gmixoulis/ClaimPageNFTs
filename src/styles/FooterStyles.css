@@ -1,0 +1,165 @@
+*{color: azure, i !important;
+z-index: 9999!important;}
+
+.footer {
+    margin-top: 20rem;
+    width: 100% ;
+    flex-shrink: 0;
+    z-index: 9999!important;
+    display: flex;
+    background-color: rgba(19, 19, 19, 0.8);
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative!important;
+    
+    padding-top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+
+}
+
+@media screen and (max-width: 978px){
+ footer a:not(#logo) {
+    display: block;
+ }
+    /* display: none; */
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        display: grid;
+    }
+    #NavFooter ul li a{
+        display:grid;
+        align-items:center;
+        text-align: center;
+
+    }
+    footer  p a{
+        display: grid!important;
+        
+    }
+    footer nav {
+        display: inline;
+        margin-left: 5rem;
+    }
+    footer p span {
+        display:none;
+    }
+   .footer{
+
+    width: 25rem;
+    
+    }
+}
+
+.footer-container {
+    max-width: 1640px;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+
+}
+.left {
+    max-width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.location {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p {
+    line-height: 30px;
+}
+
+.right {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+.social {
+    margin-top: 1rem;
+    display: -webkit-inline-flex;
+    align-items: center;
+    float: right;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h4{
+font-size: 1.2rem;
+padding-bottom: 0.7rem;
+}
+
+.right h2{
+    color: azure, i !important;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.7rem;
+    }
+
+p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 640px) {
+    
+.footer-container {
+    grid-template-columns: 1fr;
+}
+
+}
+
+.ulnav{
+    float: left;
+    text-align: left ;
+     font-size: 14px!important;
+     font-weight: lighter;
+     opacity: 0.8;
+    
+     
+}
+.ulnav::hover{
+    color: #bb1d2c!important;
+}
+
+@media screen and (max-width: 908px){
+     .ulnav{
+        text-align: center!important ;
+        float: none!important ;}
+
+}
+
+
+nav ul li p a{
+    margin:0;
+    padding: 0;
+}
+nav ul li p a:hover{
+    color:#bb1d2c;
+}
+nav ul li a{
+    margin:0;
+    padding: 0;
+    font-weight: light;
+    
+}
+nav ul li a:hover{
+    color:#bb1d2c;
+}
+div p a{
+    margin:0;
+}
+div p a:hover{
+    color:#bb1d2c;
+}
