@@ -1,8 +1,8 @@
-# MetaU Staging: NFT Claim Portal
+# NFT-Marketplace: Web3 Claim Portal
 
 ## 🚀 Project Overview
 
-**MetaU Staging** is a modern **Web3 dApp** designed for seamless NFT claiming and wallet interaction. Built with **React** and **Hardhat**, it provides a polished user interface for users to connect their wallets (supporting MetaMask and WalletConnect) and interact with smart contracts on the Ethereum blockchain.
+**NFT-Marketplace** is a modern **Web3 dApp** designed for seamless NFT claiming and wallet interaction. Built with **React** and **Hardhat**, it provides a polished user interface for users to connect their wallets (supporting MetaMask and WalletConnect) and interact with smart contracts on the Ethereum blockchain.
 
 ## 🔑 Key Features
 
